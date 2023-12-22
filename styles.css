@@ -1,0 +1,317 @@
+header img{
+    width: 15%;
+}
+h1{
+    display: inline-block;
+    margin: 1rem 0;
+    vertical-align: top;
+    color:  #543824;
+    font-family: sans-serif;
+  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+  font-size: 3.5rem;
+}
+h1:hover{
+    background-color: #FDDCC4;
+    color:#543824;
+    border: 1px solid #543824;
+}
+
+.home{
+    background-image: url(Images/pexels-bulat-khamitov-4556369.jpg);
+padding-bottom: 20rem;}
+.home>nav>a{
+    color: #fff;
+}
+header>nav>a:hover{
+    background-color: #FDDCC4;
+    color: #fff;
+    border: 1px solid #543824;
+}
+
+nav>a{
+color:  #543824;
+border: 1px solid  #FDDCC4;
+text-decoration: none;
+padding:1rem;
+font-weight: 800;
+display: inline-block;
+margin: 0 1rem 1rem 0;
+
+}
+
+header>nav{
+    text-align: center;
+}
+header{
+background-size: 1700px 1000px;
+}
+section img{
+    width: 50%;
+}
+.place p{
+    float: left;
+    font-size: xx-large;
+    background-color: #FDDCC4;
+    color: #543824;
+    border: 1px solid #543824;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+.place img{
+    float: right;
+  
+}
+.date p{
+    float: right;
+    font-size: xx-large;
+    background-color: #FDDCC4;
+    color: #543824;
+    border: 1px solid #543824;
+    padding: 1rem 1rem 1rem 1rem;
+   
+}
+.events{
+    padding-top: 7rem;
+}
+.events h2{
+  background-color: #FDDCC4;
+ max-width: fit-content;
+padding: 1rem 15rem;
+font-size: xx-large;
+text-align: center;
+
+
+
+}
+.events img{
+    float: left;
+}
+.events h3{
+    font-size: x-large;
+    text-align: center;
+}
+.drinks{
+    background-size: 2000px 850px;
+
+    background-image: url(Images/pexels-mehmet-turgut-kirkgoz-19191625.jpg);
+}
+.bakery{
+    width: 200%;
+
+}
+.column{
+    display: grid;
+        grid-template-columns: 1/3 1/3 1/3;
+        grid-template-rows: auto;
+}
+.coffee{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+@media(max-width:800px){
+    header{
+        display: inline-block;
+
+            background-size: 1000px 700px;
+            
+    }
+    .mission{
+
+        background-size: 700px 500px;
+    }
+  
+    section{
+        padding: 1rem 2rem;
+    }
+
+.coffee{
+    width: 180%;}
+
+
+
+    
+}
+.manny{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.poe{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+form>label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0.25rem;
+    
+
+}
+fieldset{
+    font-size: 1.5rem;
+    margin: 1rem 0.25rem;
+    border: 3px solid #FDDCC4 ;
+    border-radius: .25rem;
+}
+form{
+    background-color: #FDDCC4;
+    padding: 1rem 2rem;
+    width: 50rem;
+    max-width: calc(90% - 4rem);
+    margin: 1rem auto;
+    color: #fff;
+}
+
+    input[type=text],[type=email],[type=date],[type=number],[type=color]
+    {
+font-size: 1.25rem;
+width: calc(100% - 1rem);
+border: 3px solid #FDDCC4;
+padding: .5rem;
+border-radius: .25rem;  }
+
+input[type=color]{
+width: 4rem;
+height: 4rem;
+border-radius: 2rem;
+
+}
+
+
+    input:hover[type=text],input:hover[type=email],input:hover[type=date],input:hover[type=number],input:hover[type=color]
+    {
+        background-color: #fff;
+        color: #fff;
+        outline: none;
+    }
+
+    input[type=reset], [type=submit]
+    {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        border: 3px solid #FDDCC4;
+        margin: 1rem 2rem 0 0;
+
+    }
+    .apply{
+        background-image: url(Images/pexels-afta-putta-gunawan-683039.jpg);
+        background-size: 1000px 850px;
+    }
+    .donate{
+        background-image: url(Images/pexels-afta-putta-gunawan-683039.jpg);
+        background-size: 1000px 850px;
+    }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    
+    }
+  
+    
+    h2{
+      background-color: #FDDCC4;
+     max-width: fit-content;
+    padding: 1rem 15rem;
+    font-family: 'Public Sans', sans-serif;
+    }
+   p{
+    font-family: 'Dosis', sans-serif;
+font-size: x-large;
+   }
+  
+    @media (min-width:1000px)
+{
+ 
+
+    header nav{
+        position: static;
+        width: unset;
+    }
+    header nav a{
+        padding: 2rem;
+        display: inline-block;
+    }
+    header img{
+    width: 10%;
+    }
+    nav>a{
+        position: relative;
+        bottom: 10rem
+    }
+    h1{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ 
+    }
+.middle{
+    position: absolute;
+}
+.middle{
+    position: relative;
+    top:15rem;
+    padding-top: 3rem;
+}
+.events{
+    position: absolute;
+}
+.events{
+    position: relative;
+    top:25rem;
+}
+footer{
+    position: absolute;
+}
+footer{
+    position: relative;
+    top:40rem;
+    font-size: large;
+    text-align: center;
+}
+
+.mission{
+    padding-top: 17rem;
+    background-image: url(Images/b76fa330-470a-497d-aa74-656edde4980f.jpg);
+    background-size: 700px 500px;
+    
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.mission h2{
+    font-size: xx-large;
+}
+.contact{
+    background-color: #FDDCC4;
+    color: #543824;
+    border: 1px solid #543824;
+    padding: 1rem 1rem 1rem 1rem;
+
+
+}
+.donate h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
